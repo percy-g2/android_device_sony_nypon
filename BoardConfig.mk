@@ -31,7 +31,6 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/nypon/include
 
 TARGET_KERNEL_CONFIG := cm_montblanc_nypon_defconfig
 
-TARGET_ARCH= arm
 
 COMMON_GLOBAL_CFLAGS += -DSTE_HDMI
 
