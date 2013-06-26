@@ -31,13 +31,15 @@ TARGET_SPECIFIC_HEADER_PATH := device/sony/nypon/include
 
 TARGET_KERNEL_CONFIG := cm_montblanc_nypon_defconfig
 
-
 COMMON_GLOBAL_CFLAGS += -DSTE_HDMI
 
 
+# Audio testing
+COMMON_GLOBAL_CFLAGS += -DSONY_ICS_BLOBS -DICS_AUDIO_BLOB
 
 # Handling of EGL ICS blobs
 BOARD_EGL_NEEDS_LEGACY_FB := true
+
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
@@ -54,6 +56,8 @@ BOARD_MKBOOTIMG_ARGS := 0x01000000
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
+
+
 
 BOARD_SDCARD_INTERNAL_DEVICE := /dev/block/mmcblk0p14
 
