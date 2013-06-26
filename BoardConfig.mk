@@ -34,8 +34,7 @@ TARGET_KERNEL_CONFIG := cm_montblanc_nypon_defconfig
 
 COMMON_GLOBAL_CFLAGS += -DSTE_HDMI
 
-# Audio testing
-COMMON_GLOBAL_CFLAGS += -DMR0_AUDIO_BLOB
+
 
 # Handling of EGL ICS blobs
 BOARD_EGL_NEEDS_LEGACY_FB := true
