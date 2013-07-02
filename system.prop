@@ -61,3 +61,12 @@ persist.audio.hp=true
 
 ro.service.swiqi.supported=false
 persist.service.swiqi.enable=0
+
+#Add debugging level for camera 
+persist.debug.imgcommon.lev=2
+persist.debug.damper.lev=2
+persist.debug.hsmcamera.lev=2
+persist.debug.ifm.lev=2
+persist.debug.tuningload.lev=2
+persist.debug.tuning.lev=2
+persist.debug.mmiocamera.lev=2
