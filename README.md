@@ -1,4 +1,4 @@
 android_device_sony_nypon
 ====================
 
-cm10.1 for xperia P aka nypon
+Device Tree for CyanogenMod 10.1 Sony Xperia P [NYPON]
