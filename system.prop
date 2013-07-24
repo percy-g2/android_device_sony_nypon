@@ -1,6 +1,9 @@
 rild.libpath=/system/lib/libu300-ril.so
 rild.libargs=-c UNIX -n 2 -p /dev/socket/at_core -s /dev/socket/at_core -i rmnet
 
+#RIL Class
+ro.telephony.ril_class=SonyU8500RIL
+
 # The OpenGL ES API level that is natively supported by this device.
 # This is a 16.16 fixed point number
 ro.opengles.version=131072
@@ -61,12 +64,3 @@ persist.audio.hp=true
 
 ro.service.swiqi.supported=false
 persist.service.swiqi.enable=0
-
-#Add debugging level for camera 
-persist.debug.imgcommon.lev=2
-persist.debug.damper.lev=2
-persist.debug.hsmcamera.lev=2
-persist.debug.ifm.lev=2
-persist.debug.tuningload.lev=2
-persist.debug.tuning.lev=2
-persist.debug.mmiocamera.lev=2
